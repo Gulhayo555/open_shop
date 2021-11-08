@@ -1,0 +1,139 @@
+@media(prefers-colors-scheme: dark){
+    :root{
+        --body:#313131;
+        --text:#FFFFFF;
+        --dots:#EBEBEB;
+    }
+}
+@media(max-width:1336px){
+ .phones{
+     display: flex;
+     flex-wrap: wrap;  
+ }
+}
+     @media(max-width:1318px){
+        .comp_box{ 
+            display: flex;
+            flex-wrap: wrap;  
+     }  
+  }  
+   
+@media(max-width:1264px){
+    .top_seller{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .top_menu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}
+
+@media(max-width:1200px){
+    .img_title {
+        flex-direction: column;
+    }
+    .carousel-indicators {
+        bottom: 50px;
+        width: 100%;
+    }
+}
+@media(max-width:1170px){
+    .midle__block{
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+    } 
+     .shop_rigt_info{
+         display: flex;
+         justify-content: center;
+         width: 100%;
+     } 
+}
+@media(max-width:998px){
+.navbar>.header_top{
+    width: 100%;  
+}
+.nav.up{
+    flex-wrap: wrap !important; 
+}
+}
+@media(max-width:998px){
+    .midle__block{
+        width: 100%;
+    }
+    .shop__img{
+        width: 100%;
+    } 
+    }
+@media(max-width:844px){
+  .playstation{
+      flex-wrap: wrap;
+  }  
+}
+
+@media(max-width:572px){
+.shop_midle_right{
+    display: flex;justify-content: center;
+}
+.d-flex{
+    width: 100%;
+}
+.col-xl-6.main__shop_left{
+   width: 100% !important;
+   display: flex;justify-content: center !important;
+}
+}
+@media(max-width:508px){
+ .shop__radius{
+     width: 40px;
+     height: 40px;
+    font-size: 14px;
+    top: 5px;
+ } 
+ .shop__midle-radius{
+    width: 40px;
+    height: 40px;
+   font-size: 14px;
+   left: 15px;
+   bottom: 15px;  
+ } 
+.shop__hover{
+    margin-bottom: -9px;
+}
+}
+@media(max-width:508px){
+    .midle__block{
+    display: flex;
+    flex-wrap: wrap;     
+    justify-content: center;
+  }
+}
+@media(max-width:464px){
+.dropdown__nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+}
+
+}
+@media(max-width:450px){
+.d-flex{
+    width: 100% !important;
+}
+}
+@media(max-width:334px){
+    .play_h{
+        font-size: 38px;
+    }
+}
+
+@media(max-width:320px){
+    .shop__hover{
+        margin-bottom: -25px;
+    }
+}
